@@ -24,8 +24,6 @@ export const PublicarReview = () => {
     }
     // Guarda en el LS:
     localStorage.setItem("reviewStorage", JSON.stringify(elementos));
-    // Recarga Componente:
-    window.location.reload();
   };
 
   return (

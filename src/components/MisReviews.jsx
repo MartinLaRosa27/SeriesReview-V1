@@ -23,8 +23,6 @@ export const MisReviews = () => {
     const nuevoArray = review.filter((valor) => valor._id !== _id);
     //Modifica el local storage:
     localStorage.setItem("reviewStorage", JSON.stringify(nuevoArray));
-    // Recarga componente:
-    window.location.reload();
   };
 
   useEffect(() => {
