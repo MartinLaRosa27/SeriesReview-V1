@@ -1,0 +1,72 @@
+body {
+  text-transform: uppercase !important;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #b890de !important;
+}
+
+/* TODAS-REVIEWS */
+.todas-reviews {
+  margin-top: 50px;
+}
+
+.todas-reviews .card {
+  margin-top: 30px !important;
+}
+
+.todas-reviews .card-header {
+  background-color: #cebcdf;
+}
+
+/* MIS-REVIEWS */
+.mis-reviews {
+  margin-top: 50px;
+}
+
+.mis-reviews .card {
+  margin-top: 30px !important;
+}
+
+.mis-reviews .card-header {
+  background-color: #cebcdf;
+}
+
+/* PUBLICAR-REVIEW */
+.publiar-review {
+  margin-top: 50px;
+}
+
+.publiar-review button {
+  margin-top: 25px;
+  background-color: #cebcdf;
+  color: black;
+  border: 1px solid whitesmoke;
+}
+
+.publiar-review button:hover {
+  background-color: #b890de;
+  color: black;
+  border: 1px solid whitesmoke;
+}
+
+.publiar-review input:focus {
+  box-shadow: none;
+  border: 2px solid #b890de;
+}
+
+.publiar-review select:focus {
+  box-shadow: none;
+  border: 2px solid #b890de;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 50px;
+  height: 100px;
+  background-color: #cebcdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

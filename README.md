@@ -1,0 +1,1 @@
+Aplicación web desarrollada con React.Js. Tiene como finalidad que los usuarios registren sus opiniones sobre las series que vieron. Las mismas se van a almacenar en el Local Storage.
